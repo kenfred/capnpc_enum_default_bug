@@ -1,0 +1,14 @@
+[package]
+name = "default_enum_ruins_setter"
+version = "0.0.0"
+edition = "2018"
+build = "build.rs"
+
+[lib]
+path = "lib.rs"
+
+[build-dependencies.capnpc]
+capnpc = "0.17"
+
+[dependencies.capnp]
+capnp = "0.17"
